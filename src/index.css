@@ -24,8 +24,9 @@ body{
 }
 
 .screen{
-  height: 4rem;
-  margin-bottom: 4rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+  text-align: right;
 }
 
 .button-box{
