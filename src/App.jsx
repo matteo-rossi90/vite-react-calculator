@@ -8,7 +8,7 @@ import Button from './components/Button'
 
 const btnValues = [
   ["C", "+-", "%", "/"],
-  [7, 8, 9, "X"],
+  [7, 8, 9, "x"],
   [4, 5, 6, "-"],
   [3, 2, 1, "+"],
   [0, ".", "="],
