@@ -72,4 +72,12 @@ body{
 .operators:hover{
   background: rgb(42, 48, 142);
 }
+
+.others-calc{
+  background: #d7ebfc;
+}
+
+.others-calc:hover {
+  background: #c0dbf0;
+}
  

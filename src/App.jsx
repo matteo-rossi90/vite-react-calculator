@@ -7,6 +7,7 @@ import ButtonBox from './components/ButtonBox'
 import Button from './components/Button'
 import CalcProvider from './context/CalcContext'
 
+//elenco dei pulsanti del calcolatore
 const btnValues = [
   ["C", "+-", "%", "/"],
   [1, 2, 3, "x"],
@@ -25,10 +26,10 @@ function App() {
         <Screen/>
         <ButtonBox>
           {
+            //inserimento dinamico dei bottoni del calcolatore
             btnValues.flat().map((btn, i) =>
-            <Button
-              value={btn}
-              key={i}/>)
+            <Button value={btn} key={i}/>
+            )
           }
         </ButtonBox>
       </Wrapper>
