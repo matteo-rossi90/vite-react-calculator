@@ -1,8 +1,11 @@
-# React + Vite
+**Calcolatore**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Piccola applicazione per calcoli di base e semplici.
 
-Currently, two official plugins are available:
+L'applicazione permette di effettuare calcoli semplici (somma, sottrazione, moltiplicazione, divisione, percentuale e operazioni con numeri negativi). Ha la possibilità di cancellare il risultato per ricominciare da capo e la lunghezza del numero di adegua al contenitore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sono stati utilizzati:
+- React.js per un'interfaccia semplice e pulita
+- JavaScript per i metodi e le logiche riguardanti la gestione dei pulsanti e il calcolo delle operazioni
+
+L'applicazione, per quanto semplice e banale, è stata utile per consolidare le conoscenze acquisite con React.js relative a UseState e useEffect e ampliare nuove logiche.
