@@ -17,6 +17,7 @@ body{
 
 .wrapper{
   background: #f6f8f9;
+  max-width: 90vw;
   width: 20rem;
   padding: 2rem;
   border-radius: 1rem;
@@ -40,6 +41,7 @@ body{
   align-items: center;
   justify-content: center;
   height: 3.5rem;
+  font-size: 4vw;
   background: #e9f0f4;
   border: transparent;
   border-radius: 0.7rem;
@@ -81,3 +83,47 @@ body{
   background: #c0dbf0;
 }
  
+@media (max-width: 325px) {
+
+  .wrapper {
+    height: 100vh;
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+    .screen {
+      padding-top: 3.5rem;
+      font-size: 2rem;
+      height: 35%;
+    }
+  
+    .button-box {
+      flex-grow: 1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      gap: 0.4rem;
+    }
+  
+    .btn-number {
+      height: 100%;
+      font-size: 1.8rem;
+    }
+  
+    .equal {
+      grid-column: span 2;
+    }
+  
+  
+  
+  
+
+  
+  
+  
+  
+}
