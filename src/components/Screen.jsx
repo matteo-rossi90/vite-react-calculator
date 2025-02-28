@@ -6,7 +6,7 @@ const Screen = () => {
     const [fontSize, setFontSize] = useState(48); 
 
     useEffect(() => {
-        const length = (calc.num || "0").toString().length; 
+        const length = (calc.num || calc.res).toString().length; 
 
         if (length > 10) {
             setFontSize(24); 
@@ -15,7 +15,7 @@ const Screen = () => {
         } else {
             setFontSize(60); 
         }
-    }, [calc.num]); 
+    }, [calc.num, calc.res]); 
 
     return (
         <div className="screen" style={{ fontSize: `${fontSize}px`, wordBreak: "break-word" }}>
