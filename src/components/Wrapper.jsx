@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Wrapper = ({ children }) => {
+const Wrapper = ({ children, darkMode }) => {
   return (
-    <div className="wrapper">{ children }</div>
+    <div className={`wrapper ${darkMode ? "dark" : ""}`}>{ children }</div>
   )
 }
 

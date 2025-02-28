@@ -1,4 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+
 import Wrapper from './components/Wrapper'
 import Screen from './components/Screen'
 
@@ -17,12 +20,30 @@ const btnValues = [
 ]
 
 function App() {
-  
+
+  //gestione del pulsante per cambiare da modalità diurna a notturna
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   return (
     <>
     <CalcProvider>
-      <Wrapper>
+        <Wrapper darkMode={darkMode}>
+        <div className="btn-container">
+            <button
+              className="theme-toggle"
+              onClick={() => setDarkMode((prev) => !prev)}
+            >
+              <FontAwesomeIcon icon={darkMode ? faSun : faMoon}></FontAwesomeIcon>
+            </button>
+        </div>
         <Screen/>
         <ButtonBox>
           {
