@@ -17,3 +17,8 @@ Sono stati utilizzati:
 
 L'applicazione, per quanto semplice, è stata utile sia per consolidare le conoscenze acquisite con React.js relative alla suddivisione in componenti, UseState e useEffect sia per ampliare nuove logiche di sviluppo. Dal lato di design, invece, mi ha permesso di sperimentare la visualizzazione in gridbox
 
+**Video dimostrativo**
+
+https://github.com/user-attachments/assets/e87e3566-af7e-4658-a360-885e792055d5
+
+
