@@ -171,6 +171,42 @@ body.dark {
 }
 
 /* responsive mobile */
+
+@media (max-width: 400px){
+  .wrapper {
+      height: 100vh;
+      min-width: 100vw;
+      padding: 1rem;
+      border-radius: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+        .button-box {
+          flex-grow: 1;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(5, 1fr);
+          gap: 0.4rem;
+        }
+    
+        .btn-number {
+          height: 100%;
+          font-size: 1.8rem;
+        }
+}
+
+@media (max-width: 360px){
+
+  .screen {
+      margin-top: 3.5rem;
+      font-size: 2rem;
+      height: 4.5rem;
+    }
+  
+  
+}
  
 @media (max-width: 325px) {
 
@@ -182,35 +218,8 @@ body.dark {
     padding: 1rem;
     font-size: 1rem;
   }
-
-  .wrapper {
-    height: 100vh;
-    max-width: 100%;
-    padding: 1rem;
-    border-radius: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-    .screen {
-      margin-top: 3.5rem;
-      font-size: 2rem;
-      height: 4.5rem;
-    }
   
-    .button-box {
-      flex-grow: 1;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      gap: 0.4rem;
-    }
   
-    .btn-number {
-      height: 100%;
-      font-size: 1.8rem;
-    }
   
     .equal {
       grid-column: span 2;
