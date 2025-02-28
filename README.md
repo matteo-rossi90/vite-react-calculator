@@ -8,4 +8,4 @@ Sono stati utilizzati:
 - React.js per un'interfaccia semplice e pulita
 - JavaScript per i metodi e le logiche riguardanti la gestione dei pulsanti e il calcolo delle operazioni
 
-L'applicazione, per quanto semplice e banale, è stata utile sia per consolidare le conoscenze acquisite con React.js relative alla suddivisione in componenti, UseState e useEffect sia per ampliare nuove logiche.
+L'applicazione, per quanto semplice, è stata utile sia per consolidare le conoscenze acquisite con React.js relative alla suddivisione in componenti, UseState e useEffect sia per ampliare nuove logiche.

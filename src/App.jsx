@@ -49,7 +49,7 @@ function App() {
           {
             //inserimento dinamico dei bottoni del calcolatore
             btnValues.flat().map((btn, i) =>
-            <Button value={btn} key={i}/>
+              <Button value={btn} key={i}/>
             )
           }
         </ButtonBox>
