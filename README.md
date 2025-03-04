@@ -1,5 +1,7 @@
 **Calcolatore**
 
+**L'applicazione è online qui:** https://my-react-easy-calculator.netlify.app/
+
 ![Screenshot (269)](https://github.com/user-attachments/assets/a9792a14-31e8-4c72-bcb4-50c7184c7bf2)
 
 ![Screenshot (268)](https://github.com/user-attachments/assets/af49a9ba-6c46-49f2-ad26-91f3598466ac)
